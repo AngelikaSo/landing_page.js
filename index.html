@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="YoYoga is an yoga classes subscription that will make you to take care of your health and body shape."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="01-hero/logo-ilu1.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script type="module" defer src="script.js"></script>
+
+    <title>YoYoga &mdash; wellnes, meditation, movement</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="logo image" src="01-hero/logo-ilu.png" />
+      </a>
+      <nav class="main__nav">
+        <ul class="main__nav--list">
+          <li><a class="main__nav--link" href="#about">About</a></li>
+          <li>
+            <a class="main__nav--link" href="#instructors">Instructors</a>
+          </li>
+          <li>
+            <a class="main__nav--link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main__nav--link" href="#pricing">Pricing</a></li>
+          <li><a class="main__nav--link" href="#contact">Contact</a></li>
+          <li><a class="main__nav--link nav__cta" href="#cta">Sign Up</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn__mobile--nav">
+        <ion-icon class="icon__mobile--nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon__mobile--nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero__section">
+        <div class="hero grid grid__2--cols">
+          <div class="hero__text--box">
+            <h1 class="heading__primary heading__primary--sp">
+              Yoga for everyone!
+            </h1>
+            <p class="description hero__description">
+              Classes and program for all levels and abilities. Lorem ipsum
+              adipisicing lorem ipsum dolor, elit. Distinctio debitis minus
+              vitae ex molestias explicabo possimus.
+            </p>
+            <div class="grid__2--btn">
+              <a href="#cta" class="btn margin__left--sm">Try for free</a>
+              <a href="#about" class="btn btn__outline margin__right--sm"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="hero__img--box">
+            <img
+              src="01-hero/hero-ilu.png"
+              class="hero__img"
+              alt="Illustration of the woman meditating"
+            />
+          </div>
+        </div>
+        <a href="#about" class="icon__display">
+          <ion-icon
+            name="chevron-down-circle-outline"
+            class="arrow__down"
+          ></ion-icon>
+        </a>
+      </section>
+      <section class="about__section" id="about">
+        <div class="box__about">
+          <h2 class="heading__about">
+            Holistic Wellness, Meditation & Movement
+          </h2>
+          <p class="description__about">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s.
+          </p>
+        </div>
+      </section>
+      <section class="gallery__section">
+        <div class="slider__gallery">
+          <!-- Slides -->
+          <div class="slide__gallery">
+            <img
+              src="02-gallery/gallery-img-01.jpg"
+              class="slide__gallery--img"
+              alt="People doing yoga on the beach"
+            />
+          </div>
+          <div class="slide__gallery">
+            <img
+              src="02-gallery/gallery-img-02.jpg"
+              class="slide__gallery--img"
+              alt="People doing yoga in the calss"
+            />
+          </div>
+          <div class="slide__gallery">
+            <img
+              src="02-gallery/gallery-img-03.jpg"
+              class="slide__gallery--img"
+              alt="People meditating"
+            />
+          </div>
+          <div class="slide__gallery">
+            <img
+              src="02-gallery/gallery-img-04.jpg"
+              class="slide__gallery--img"
+              alt="Woman doing yoga"
+            />
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="slider__pagination"></div>
+
+          <!-- If we need navigation buttons-->
+          <button class="slider__btn slider__button--prev">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </button>
+
+          <button class="slider__btn slider__button--next">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </section>
+      <section class="instructors__section" id="instructors">
+        <div class="container">
+          <h2 class="heading__primary heading-primary---sp">
+            Meet Our Instructors
+          </h2>
+          <p class="description instructor__description">
+            Our team of world-class instructors will empower you to grow and
+            achieve all of your yoga and wellness goals.
+          </p>
+        </div>
+        <div class="instructor__grid">
+          <div class="instructor">
+            <img
+              src="03-instructors/instructor-simon.jpg"
+              class="instructor__img"
+              alt="Portrait of Simon"
+            />
+          </div>
+          <div class="instructor">
+            <img
+              src="03-instructors/instructor-mia.jpg"
+              class="instructor__img"
+              alt="Portrait of Mia"
+            />
+          </div>
+          <div class="instructor">
+            <img
+              src="03-instructors/instructor-wandy.jpg"
+              class="instructor__img"
+              alt="Portrait of Wandy"
+            />
+          </div>
+          <div class="instructor__text instructor__1--grid-text">
+            <h3 class="instructor__name">Simon</h3>
+            <p class="instructor__specjalization">Hatha Yoga</p>
+          </div>
+          <div class="instructor__text instructor__2--grid-text">
+            <h3 class="instructor__name">Mia</h3>
+            <p class="instructor__specjalization">Vinyasa Yoga</p>
+          </div>
+
+          <div class="instructor__text instructor__3--grid-text">
+            <h3 class="instructor__name">Wandy</h3>
+            <p class="instructor__specjalization">Anusara Yoga</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="section__title section__title--testimonials">
+          <h2 class="heading__primary container">Our Community</h2>
+        </div>
+
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <div class="slide__img">
+                <img src="06-testimonials/sarah.jpg" alt="picture of Sarah" />
+              </div>
+              <div class="slide__text">
+                <p class="testimonial__text">
+                  "Subscribing to YoYoga has been the best choice for my mental,
+                  spiritual and physical health."
+                </p>
+                <p class="author__text">
+                  Sarah Jackson<span> YoYoga student</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <div class="slide__img">
+                <img src="06-testimonials/dave.jpg" alt="picture of Dave" />
+              </div>
+              <div class="slide__text">
+                <p class="testimonial__text">
+                  "I appreciate wonderful teaching styles and how instructors
+                  honor and encourage bodies of all ages, sizes and abilities."
+                </p>
+                <p class="author__text">
+                  Dave Thomson<span> YoYoga student</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <div class="slide__img">
+                <img src="06-testimonials/mark.jpg" alt="picture of Mark" />
+              </div>
+              <div class="slide__text">
+                <p class="testimonial__text">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  sit, veniam quisquam, vitae aut praesentium earum corrupti,
+                  eligendi iste qui modi eos obcaecati eveniet."
+                </p>
+                <p class="author__text">
+                  Mark Osborn<span> YoYoga student</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--left">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </button>
+          <button class="slider__btn slider__btn--right">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+          <div class="dots"></div>
+        </div>
+      </section>
+      <section class="section__pricing" id="pricing">
+        <h2 class="heading__primary container">Try 7 days for free!</h2>
+
+        <div class="grid grid__2--cols">
+          <div class="princing__plan princing__plan--month">
+            <header class="plan__header">
+              <p class="plan__name">1 month unlimited</p>
+              <p class="plan__price"><span>$ </span>110</p>
+              <p class="plan__text">per month</p>
+            </header>
+            <ul class="list">
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>virtual or in-studio</span>
+              </li>
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>qualified instructors</span>
+              </li>
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>free water</span>
+              </li>
+              <li class="list__item">
+                <ion-icon name="close-outline" class="icon"></ion-icon>
+                <span>no class recordings</span>
+              </li>
+            </ul>
+            <div class="plan__sing--up">
+              <a href="#" class="btn">Sign Up</a>
+            </div>
+          </div>
+
+          <div class="princing__plan princing__plan--membership">
+            <header class="plan__header">
+              <p class="plan__name">Become a Member!</p>
+              <p class="plan__price"><span>$ </span>95</p>
+              <p class="plan__text">per month</p>
+            </header>
+            <ul class="list">
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>virtual or in-studio</span>
+              </li>
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>qualified instructors</span>
+              </li>
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>free water</span>
+              </li>
+              <li class="list__item">
+                <ion-icon name="checkmark-outline" class="icon"></ion-icon>
+                <span>access to class recordings</span>
+              </li>
+            </ul>
+            <div class="plan__sing--up">
+              <a href="#" class="btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid__3--cols yoga__man--ilu">
+          <div></div>
+          <img
+            src="04-pricing/pricing-ilu.png"
+            class="yoga__ilu--02"
+            alt="Man doing yoga"
+          />
+        </div>
+      </section>
+      <section class="section__cta" id="cta">
+        <div class="cta">
+          <div class="cta__text--box container">
+            <div>
+              <h2 class="heading__primary heading__primary---sp">
+                Practice with confiedance, sign up today!
+              </h2>
+              <p class="description cta__description">
+                Be part of a community of expert yoga practitioners and members
+                alike.
+              </p>
+            </div>
+            <div class="cta__form">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Paul Smith"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="paul.smith@yoyoga.com"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear about us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <div class="cta__btn">
+                <a class="btn__cta--1" href="#">Sign Up Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="cta__img--box"></div>
+        </div>
+      </section>
+
+      <hr class="line" />
+
+      <footer class="footer" id="contact">
+        <div class="footer__grid container">
+          <div class="logo__col">
+            <a href="#" class="footer__logo">
+              <img class="logo" alt="YoYoga Logo" src="01-hero/logo-ilu.png"
+            /></a>
+            <ul class="media__links">
+              <li>
+                <a class="footer__link" href="#"
+                  ><ion-icon class="media__icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer__link" href="#"
+                  ><ion-icon class="media__icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer__link" href="#"
+                  ><ion-icon
+                    class="media__icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2027</span>. All rights
+              reserved.
+            </p>
+          </div>
+
+          <div class="footer__contact">
+            <p class="footer__heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">
+                623 Manhatan St., 2nd Floor, New York, NY 95211
+              </p>
+
+              <p>
+                <a class="footer__link" href="415-309-6345 "> 415-309-6345</a
+                ><br />
+                <a class="footer__link" href="hello@yoyoga.com"
+                  >hello@yoyoga.com</a
+                >
+              </p>
+            </address>
+          </div>
+          <nav class="nav__col">
+            <p class="footer__heading">Account</p>
+            <ul class="footer__nav">
+              <li><a class="footer__link" href="#">Create account</a></li>
+              <li><a class="footer__link" href="#">Sign in</a></li>
+              <li><a class="footer__link" href="#">iOS app</a></li>
+              <li><a class="footer__link" href="#">Android app</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav__col">
+            <p class="footer__heading">Company</p>
+            <ul class="footer__nav">
+              <li><a class="footer__link" href="#">About YoYoga</a></li>
+              <li><a class="footer__link" href="#">For Business</a></li>
+              <li><a class="footer__link" href="#">Partners</a></li>
+              <li><a class="footer__link" href="#">Careers</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav__col">
+            <p class="footer__heading">Resources</p>
+            <ul class="footer__nav">
+              <li><a class="footer__link" href="#">Recipe directory</a></li>
+              <li><a class="footer__link" href="#">Help center</a></li>
+              <li><a class="footer__link" href="#">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

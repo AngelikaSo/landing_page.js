@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+.heading__primary {
+  font-weight: 700;
+  color: #222;
+  letter-spacing: -0.5px;
+  padding-bottom: 5.2rem;
+  font-size: 4.4rem;
+  line-height: 1.1;
+}
+
+.description {
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.6rem 1.4rem;
+  border-radius: 10px;
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: rgb(62, 138, 248);
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgba(37, 90, 163, 0.881);
+}
+
+.btn__outline:link,
+.btn__outline:visited {
+  background-color: rgba(62, 140, 248, 0.133);
+  color: #333;
+}
+
+.btn__outline:hover,
+.btn__outline:active {
+  background-color: #fff;
+  /* trick to add border inside */
+  box-shadow: inset 0 0 0 3px rgb(62, 138, 248);
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+}
+
+.grid__2--cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid__3--cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+}
+
+.container {
+  max-height: 100%;
+  max-width: 120rem;
+  padding: 6.4rem 12.8rem 3.2rem 12.8rem;
+}
+
+.margin__left--sm {
+  margin-left: 10rem !important;
+}
+
+.margin__right--sm {
+  margin-right: 10rem !important;
+}
