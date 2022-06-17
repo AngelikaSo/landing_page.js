@@ -1,4 +1,4 @@
-"strict-mode";
+"use strict";
 
 // set up the current year to change automathically //
 const yearEl = document.querySelector(".year");
