@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 "use strict";
-=======
-'use strict';
->>>>>>> 45ded24abbe4ed575afee99b8e55555eaa52de0a
 
 // set up the current year to change automathically //
 const yearEl = document.querySelector(".year");
